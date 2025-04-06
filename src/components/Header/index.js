@@ -1,4 +1,3 @@
-/* eslint-disable react/self-closing-comp */
 import {useContext} from 'react'
 import {Link, withRouter} from 'react-router-dom'
 import {AiOutlineShoppingCart} from 'react-icons/ai'

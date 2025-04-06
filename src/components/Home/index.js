@@ -34,7 +34,8 @@ const Home = () => {
     }))
 
   const fetchRestaurantApi = async () => {
-    const api = 'https://apis2.ccbp.in/restaurant-app/restaurant-menu-list-details'
+    const api =
+      'https://apis2.ccbp.in/restaurant-app/restaurant-menu-list-details'
     const apiResponse = await fetch(api)
     const data = await apiResponse.json()
     const updatedData = getUpdatedData(data[0].table_menu_list)
